@@ -82,10 +82,10 @@ var exampleStructA = decoceJsonStringToStruct(inputJsonString: contactJsonString
 print(exampleStructA)
 print(type(of: exampleStructA))
 print("----------------------------------------------------\n")
-      
+
 
 // How to decode a json file URL into an array of struct
-func decoceJsonFileToStruct(jsonURL: String) -> [Contact]{
+func decoceJsonURLToStruct(jsonURL: String) -> [Contact]{
 
     if let url = URL(string: jsonURL) {
         if let data = try? Data(contentsOf: url) {
@@ -101,7 +101,7 @@ func decoceJsonFileToStruct(jsonURL: String) -> [Contact]{
 }
 
 print("How to decode a json file URL into an array of struct:")
-var exampleStructB = decoceJsonFileToStruct(jsonURL: contactJsonFileURLExample)
-print(exampleStructB)
-print(type(of: exampleStructB))
+var exampleStructC = decoceJsonURLToStruct(jsonURL: contactJsonFileURLExample)
+print(exampleStructC)
+print(type(of: exampleStructC))
 print("----------------------------------------------------\n")

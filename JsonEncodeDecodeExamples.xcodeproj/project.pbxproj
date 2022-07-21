@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		6B681BA32888CA9700424728 /* JsonEncodeDecodeExamples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JsonEncodeDecodeExamples; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B681BA62888CA9700424728 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6B681BA62888CA9700424728 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = /Users/tomhuynh/Developer/JsonEncodeDecodeExamples/JsonEncodeDecodeExamples/main.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
